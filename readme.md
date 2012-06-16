@@ -32,6 +32,11 @@ ssh.resetTTY()
   - [no arguments]
   
 
+INSTALL
+=======
+
+npm install sshey
+
 NOTES
 =====
 
