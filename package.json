@@ -1,0 +1,19 @@
+{
+  "name": "sshey",
+  "description": "simple node wrapper for interactive ssh sessions.",
+  "version": "0.0.0",
+  "main": "./ssh.js",
+  "bin": {},
+  "dependencies": {},
+  "engines": {
+    "node": "<=0.6.x"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "author": "Ryan Day <soldair@gmail.com>",
+  "homepage": "http://github.com/soldair/node-sshey",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/soldair/node-sshey.git"
+  }
+}
