@@ -1,4 +1,3 @@
-
 SSH
 ===
 
@@ -8,7 +7,7 @@ EXAMPLE!
 ========
 
 ```js
-var ssh = require(__dirname+'/../ssh.js');
+var ssh = require('ssh');
 
 ssh('someone@localhost',function(){
   console.log('ssh all done!');
