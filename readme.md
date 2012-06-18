@@ -7,7 +7,7 @@ EXAMPLE!
 ========
 
 ```js
-var ssh = require('ssh');
+var ssh = require('sshey');
 
 ssh('someone@localhost',function(){
   console.log('ssh all done!');
