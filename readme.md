@@ -1,5 +1,5 @@
-SSH
-===
+sshey
+=====
 
 a node wrapper for interactive ssh sessions.
 
