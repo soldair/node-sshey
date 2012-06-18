@@ -3,6 +3,7 @@ var spawn = require('child_process').spawn;
 module.exports = function(userhost,options,cb){
 
   //optional options
+  if(!options) options = {};
   if(!cb && options.call){
     cb = options;
     options = {};
@@ -23,7 +24,7 @@ module.exports = function(userhost,options,cb){
   ssh.on('exit',function(){
     if(options.reset){
       resetTTY(cb);
-    } else {
+    } else if(cb){
       cb(undefined,true);
     }
 
