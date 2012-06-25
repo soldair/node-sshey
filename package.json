@@ -1,12 +1,12 @@
 {
   "name": "sshey",
   "description": "simple node wrapper for interactive ssh sessions.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./ssh.js",
   "bin": {},
   "dependencies": {},
   "engines": {
-    "node": "< 0.7"
+    "node": ">=0.6"
   },
   "devDependencies": {},
   "optionalDependencies": {},

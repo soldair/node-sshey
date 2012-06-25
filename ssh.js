@@ -18,6 +18,10 @@ module.exports = function(userhost,options,cb){
     process.stdin.pause();
   }
 
+  var args = [userhost];
+  if(options.exec) {
+    args.push(options.exec);
+  }
 
   var ssh = spawn('ssh',[userhost],{customFds:[process.stdin.fd,process.stdout.fd,process.stderr.fd]});
 
